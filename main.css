@@ -1,0 +1,290 @@
+.mainTitle {
+	font-size:2em;
+	position:absolute;
+	left:10%;
+	top:5px;
+	z-index:2;
+}
+
+.titleImg {
+	width:30px;
+	height:30px;
+	top:7px;
+	position:relative;
+}
+
+.linksBar {
+	position:fixed;
+	top:-25px;
+	right:10%;
+	z-index:2;
+	list-style-type:none;
+}
+
+.linkMenu {
+	visibility: hidden;
+}
+
+.linkItem {
+	display: inline;
+}
+
+.linkPic {
+	width:30px;
+}
+
+.header {
+	width:100%;
+	background-color:#F0F0F0;
+	left:0px;
+	top:0px;
+	position:fixed;
+	height:50px;
+	z-index:1;
+
+	background-image:url('pics/back.png');
+}
+
+.footer {
+	bottom:0;
+	height:150px;
+}
+
+.script {
+	color:white;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+
+}
+
+.geo {
+	color:white;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+
+
+#about {
+	border-radius:2px;
+	height:300px;
+	width:30%;
+	position:fixed;
+	right:10%;
+	top:150px;
+	text-align:center;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.skillsList {
+	list-style-type: none;
+	position: relative;
+	left:30%;
+
+}
+
+.skillsList li {
+	height: 25px;
+	margin-right: 0px;
+	border-left: 1px solid #94DBFF;
+	padding: 0 20px;
+	width:57px;
+
+}
+
+.skillsList li:hover {
+	background-color:#94DBFF;
+	
+}
+
+.skillMatch {
+	background-color:#94DBFF;
+}
+
+.skillsLabel {
+	font-size:25px;
+}
+
+.skillsSubLabel {
+	font-size:20px;
+}
+
+#aboutTitle {
+
+}
+
+
+
+
+.projectPic {
+	position: relative;
+	top:10px;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	border: solid black;
+	border-radius: 2px;
+}
+
+.projects {
+	position:relative;
+	top:80px;
+	left:10%;
+	width:45%;
+}
+
+.project {
+	position:relative;
+	border-radius:2px;
+	width:100%;
+	top:30px;
+	background-color: white;
+	box-shadow: 0 0 5px black;
+	
+}
+
+.projectText {
+	width:90%;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size:15px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+.projectTitle {
+	color:#FFB870;
+	font-size: 40px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.projectName {
+	color:#FFB870;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.highlight {
+	background-color: #94DBFF;
+	border-left:solid #94DBFF;
+	border-top:solid #94DBFF;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.blueHighlight {
+	box-shadow: 0 0 60px #94DBFF;
+}
+
+body {
+	background-color: #FFFFFF;
+	
+}
+
+@media only screen and (max-width: 650px) {
+
+	.mainTitle {
+		left:3%;
+		font-size: 1.5em;
+	}
+
+	.linksBar {
+		top:0px;
+		right:5%;
+
+	}
+
+	.linkItem {
+
+		display:block;
+		position: relative;
+		margin: 0 0 3px 0;
+		left:10px;
+		top:15px;
+		width:60px;
+		height:0px;
+		visibility: hidden;
+	}
+
+	.linkPic {
+		width:60px;
+	}
+
+	.linkMenu {
+		color:white;
+		font-size: 1.3em;
+		display:inline;
+		cursor: pointer;
+		visibility: visible;
+	}
+
+	#about {
+		top:50px;
+		position:relative;
+		width:90%;
+		margin-left: auto;
+		margin-right:auto;
+		left:0%;
+	}
+
+	.projects {
+		width:90%;
+		left:0%;
+		margin-left:auto;
+		margin-right: auto;
+		top:100px;
+	}
+
+	.projectTitle {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	#mostSkills {
+		position: absolute;
+		left:7%;
+	}
+
+	#someSkills {
+		position: absolute;
+		right:7%;
+	}
+	.skillsList {
+		left:0%;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	#mostSkills {
+		position: absolute;
+		left:-5%;
+	}
+
+	#someSkills {
+		position: absolute;
+		right:-5%;
+	}
+	.mainTitle {
+		left:1%;
+		top:5px;
+		font-size: 1em;
+	}
+	.linkMenu {
+		font-size: 1em;
+	}
+	.linksBar {
+		top:3px;
+	}
+	.skillsSubLabel {
+		font-size:15px;
+	}
+}
+
+.showLink {
+	visibility: visible;
+	height:60px;
+}
