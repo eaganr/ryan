@@ -22,9 +22,9 @@
 			
 			<ul class="linksBar geo">
 				<li class="linkMenu"><span style="font-size:12px">&#9660;</span> More</li>
-				<li class="linkItem"><a href="https://www.linkedin.com/profile/view?id=192134558"><img class="linkPic" src="pics/links/linkedin.png" /></a></li>
-				<li class="linkItem"><a href="https://github.com/eaganr"><img class="linkPic" src="pics/links/github.png" /></a></li>
-				<li class="linkItem"><a href="mailto:eaganry@gmail.com"><img class="linkPic" src="pics/links/email.png" /></a></li>
+				<li class="linkItem"><a href="https://www.linkedin.com/profile/view?id=192134558" target="outlink"><img class="linkPic" src="pics/links/linkedin.png" /></a></li>
+				<li class="linkItem"><a href="https://github.com/eaganr" target="outlink"><img class="linkPic" src="pics/links/github.png" /></a></li>
+				<li class="linkItem"><a href="mailto:eaganry@gmail.com" target="outlink"><img class="linkPic" src="pics/links/email.png" /></a></li>
 				<li class="linkItem"><a href="ResumeEagan.pdf"><img class="linkPic" src="pics/links/resume.png" /></a></li>
 			</ul>
 		</div>
@@ -68,16 +68,34 @@
 		
 		<div class="projects">
 			<label class="projectTitle">Projects</label>
-			<div class="project" Django="true" MySQL="true" jQuery="true" Javascript="true" Python="true" HTML="true">
+			<div class="project" Django="true" MySQL="true" Python="true" HTML="true">
+				<a href="http://www.theatlantic.com/magazine/archive/1996/09/victim-kitsch/376672/"><img class="projectPic" src="pics/projects/atlantic.png" /></a>
+				<p class="projectText">
+					<span class="projectName geo">The Atlantic /past -</span> During my summer 2014 internship at The Atlantic I wrote <span class="highlight">Python</span> scripts converting over 3000 hand coded <span class="highlight">HTML</span> documents located at www.theatlantic.com/past/ into the <span class="highlight">Django</span> ORM and <span class="highlight">MySQL</span> database. This includes content from The Atlantic's first issue in 1857 to the last hand coded issue in 2004. There were a number of different formats of content including new paragraphs as table rows and article titles as images. (The photo links to an example).
+				</p>
+			</div>
+			<div class="project" Django="true" MySQL="true" jQuery="true" Javascript="true" Python="true" HTML="true" CSS="true">
 				<a href="http://www.thecorp.org:8000"><img class="projectPic" src="pics/projects/catering.png" /></a>
 				<p class="projectText">
 					<span class="projectName geo">Corp Catering Site -</span> A <span class="highlight">Django</span> site designed to take customer orders for catered events in the Georgetown University community.  The customer area of the site includes a catalogue of catered offerings, customized cart and checkout features as well as an account management system for customers. The site also has a content management system for Corp Catering employees to more easily interact with the <span class="highlight">MySQL</span> database.  The CMS is designed to track orders, communicate with customers and manage inventory and finances.
 				</p>
 			</div>
-			<div class="project" Obj-C="true">
-				<img class="projectPic" src="pics/projects/dCide.png" />
+			<div class="project" jQuery="true" Javascript="true" HTML="true" CSS="true">
+				<a href="https://github.com/eaganr/Reconnect"><img class="projectPic" src="pics/projects/reconnect.png" /></a>
 				<p class="projectText">
-					<span class="projectName geo">dCide -</span> An iPhone app created with a group of four friends comprising inBenchon Ltd. dCide app is designed to help groups make decisions about where to go, what do to, and how to get there.  Users can enter a list of options for what to do as well as choose from local restaurants, museums, shopping spots and nightlife locations pulled from the Yelp API. Once the options are set, a random choice is made by the app, or the iPhone can be passed around for a vote, or, for privacy, users can connect via Bluetooth to make a decision.
+					<span class="projectName geo">Reconnect Website -</span> This site was written to give visitors more information about Reconnect, a charity in Brooklyn providing young men work experience and education. The site was static, but used <span class="highlight">CSS</span> for a responsive design.  The site pulled from Reconnect's Facebook feed using the Facebook API, used <span class="highlight">jQuery</span> slides for a picture slideshow, and used Bootstrap for buttons and menus.
+				</p>
+			</div>
+			<div class="project" PHP="true" MySQL="true" jQuery="true" Javascript="true" HTML="true" CSS="true">
+				<a ><img class="projectPic" src="pics/projects/corpticket.png" /></a>
+				<p class="projectText">
+					<span class="projectName geo">Corp IT Ticket Manager -</span> A section of The Students of Georgetown Inc's employee site written in <span class="highlight">PHP</span> for employees to report IT issues. The form includes dynamic questions based on the coffee / grocery storefront concerned and technology involved (cash register, wifi, employee website bugs, etc). All of this information is saved in a <span class="highlight">MySQL</span> database.  The system then sends an email to all IT employees who can use the admin section to reply with updates and eventually mark the problem as resolved.
+				</p>
+			</div>
+			<div class="project" Obj-C="true">
+				<a href="http://www.princeton.edu/~albanell/inBenchon/"><img class="projectPic" src="pics/projects/dCide.png" /></a>
+				<p class="projectText">
+					<span class="projectName geo">dCide -</span> An <span class="highlight">iPhone</span> app created with a group of four friends comprising inBenchon Ltd. dCide is designed to help groups make decisions about where to go, what do to, and how to get there.  Users can enter a list of options for what to do as well as choose from local restaurants, museums, shopping spots and nightlife locations pulled from the Yelp API. Once the options are set, a random choice is made by the app, or the iPhone can be passed around for a vote, or, for privacy, users can connect via Bluetooth to make a decision.
 				</p>
 			</div>
 			</div>
