@@ -32,6 +32,7 @@
 .linkPic {
 	width:30px;
 }
+
 a {
 	color:#94DBFF;
 }
@@ -44,8 +45,7 @@ a {
 	position:fixed;
 	height:50px;
 	z-index:1;
-
-	background-image:url('pics/back.png');
+	background-color:black;
 }
 
 .footer {
